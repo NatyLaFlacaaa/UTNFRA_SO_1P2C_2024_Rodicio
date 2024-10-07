@@ -1,0 +1,348 @@
+cd repogit
+ls -l
+cd repo_rodicio/
+ls -l
+echo "hola" > hola.txt
+ls -l
+cat hola.txt 
+git status
+git add .
+git status
+git commit -m "Agrego HOLA"
+git config --global user.email "nataliarodiciooo@gmail.com"
+git config --global user.name "NatyLaFlacaaa"
+git status
+git commit -m "Agrego HOLA"
+git push -u origin main
+git status
+cat /etc/passws
+cat -etc-passwd
+cat /etc/passwd
+tail /etc/passwd
+tail -n3 /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep -n bash
+cat /etc/passwd | grep -n no login
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -nv nologin > archivo1.txt
+ls -l
+cat archivo1.txt 
+cat /etc/passwd | grep -nv nologin | tal -3
+cat /etc/passwd | grep -nv nologin | tail -3
+cat /etc/passwd | grep -nv nologin | head -3
+cat /etc/shadow
+sudo cat /etc/shadow
+lspci
+lscpu
+lscpu | grep model
+lscpu | grep Model
+lscpu | grep -i
+lscpu | grep Model | -n1
+lscpu | grep Model | head -n1
+lscpu | grep Model | head -n1 > info_proc.txt
+ls
+cat info_proc.txt 
+cat archivo1.txt 
+sort archivo1.txt 
+history
+history ls -l
+cat << FIN > bloque_cat.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+cat bloque_cat.txt 
+git status
+git add .
+git commit -m "Ultimos archivos creados clase 3"
+git commit
+git push
+git pull
+exit
+cd .ssh
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:NatyLaFlacaaa/repo_rodicio.git
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub
+ls
+cd repogit
+git clone git@github.com:NatyLaFlacaaa/TP_AySO.git
+ls
+cd TP_AySO/
+ls -l
+cat /etc/os-release
+grep -i home
+cd repogit/
+ls
+cd TP_AySO/
+cat head/proc/cpuinfo | grep "model name" >> datos_usuarios.txt
+ls
+cat datos_usuario
+cat datos_usuario.txt
+cat datos_usuario
+cat datos_usuarios.txt
+rm datos_usuarios.txt
+ls
+cat datos_usuario.txt 
+head/proc/cpuinfo | grep "model name"
+head /proc/cpuinfo | grep "model name"
+echo "Model name=$(head /proc/cpuinfo | grep "model name")" >> datos_usuario.txt
+cat datos_usuario.txt 
+git status
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git status
+grep -v nologin /etc/passwd
+grep -v nologin /etc/passwd | sort -t":" -k7
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt"
+cd repogit/
+cd TP_AySO/
+ls
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt"
+cd repogit/
+cd TP_AySO/
+git status
+ls
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt
+ls
+cat lista_ordenada.txt 
+dit add .
+git add .
+git status
+git commit -m “ADD: Listado de usuarios ordenada”
+git status
+git reset
+git status
+git reset
+git status
+git add datos_usuario.txt 
+git status
+git commit -m "feat: Añadiendo informacion del CPU"
+git status
+git add lista_ordenada.txt 
+git status
+git commit -m "ADD: Listado de Usuarios Ordenada"
+git status
+echo apropos "dump traffic" >> comando_dump_net
+git status
+git add .
+git status
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+cat << FIN >> README.md
+cd repogit/
+cd TP_AySO/
+cat README.md 
+cd ..
+cd TP_AySO/
+ls
+cat README.md 
+cat -la README.md 
+cat << FIN >> README.md 
+Alumno: Natalia Rodicio
+Division: 115
+Turno: Mañana
+FIN
+
+cat README.md 
+git add .
+git status
+git commit -m "ADD: Añadiendo informacion de alumno, division y turno al archivo README"
+git status
+history -a
+history
+history -a $HOME/.bash_history
+ls
+echo "$HOME/.bash_history" > Historial_comandos_Natalia_Rodicio.txt
+ls
+cat Historial_comandos_Natalia_Rodicio.txt 
+history
+cat Historial_comandos_Natalia_Rodicio.txt 
+echo cp $HOME/.bash_history Historial_comandos.txt
+cat Historial_comandos_Natalia_Rodicio.txt 
+cp ~/.bash_history ./Historial_comandos_Tu-Nombre.txt
+ls
+cat Historial_comandos_Tu-Nombre.txt 
+rm Historial_comandos_Tu-Nombre.txt 
+ls
+cp ~/.bash_history ./Historial_comandos_Natalia_Rodicio.txt
+ls
+cat Historial_comandos_Natalia_Rodicio.txt 
+git add .
+git commit -m "ADD: Añadiendo historial de comandos."
+git status
+git push
+exit
+cd repogit
+cd TP_AySO/
+grep -i HOME_URL /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+sudo fdisk -l
+vagrant halt
+exit
+ls -l
+cd repogit/
+ls -l
+cd UTN-FRA_SO_Examenes/
+ls -l
+cd ..
+cd UTNFRA_SO_1P2C_2024_Rodicio/
+ls -l
+cd RTA
+cd RTA_SCRIPT_Examen_20241005/
+ls -l
+clear
+cd ..
+sudo mkdir -p /Examenes-UTN/{alumno1/parcial{1..3},alumno2/parcial{1..3},alumno3/parcial{1..3},profesores}
+sudo mkdir -p /Examenes-UTN/{alumno1/parcial{1..3},alumno2/parcial{1..3},alumno3/parcial{1..3},profesores}
+tree
+cd repogit/
+clear
+tree
+tree /Examenes-UTN/
+rm -r /Examenes-UTN/
+tree /Examenes-UTN/
+sudo rm -r /Examenes-UTN/
+tree /Examenes-UTN/
+clear
+fdisk
+sudo fdisk
+sudo fdisk -l
+ls -l
+cd UTN-FRA_SO_Examenes/
+ls -l
+cd ..
+cd UTNFRA_SO_1P2C_2024_Rodicio/
+ls -l
+cd RTA_SCRIPT_Examen_20241005/
+ls -l
+cd ..
+vagrant halt
+apt install vagrant
+git status
+ls -l
+cd repogit/
+git status
+ls -l
+cd UTNFRA_SO_1P2C_2024_Rodicio/
+git status
+cd RTA_SCRIPT_Examen_20241005/
+ls -l
+tree
+cd ..
+git status
+git add RTA_SCRIPT_Examen_20241005/
+git status
+cd RTA_SCRIPT_Examen_20241005/
+vim Punto_A.sh
+git status
+git add Punto_A.sh 
+git commit -m "ADD: Agrego el Punto A resuelto"
+git status
+git push
+vim Punto_B.sh 
+sudo chmod 755 Punto_A.sh 
+ls -l
+vim Punto_B.sh 
+git status
+sudo chmod 755 Punto_B.sh 
+git status
+git add .
+git status
+git commit -m "ADD: Agrego Punto B y Permisos de Punto A"
+git status
+git push
+git status
+vim Punto_C.sh 
+sudo chmod 755 Punto_C.sh 
+git status
+git add .
+git status
+git commit -m "ADD: Agrego Punto C resuelto con permisos de ejecucion"
+git push
+git status
+vim Punto_D.sh 
+git status
+gid add .
+sudo chmod 755 Punto_D.sh 
+git status
+git add .
+git status
+git commit -m "ADD: Agrego resolucion de Punto D y permisos de ejecucion"
+git push
+vim Punto_E.sh 
+sudo chmod 755 Punto_E.sh 
+git add Punto_E.sh 
+git commit -m "ADD: Agrego Punto E resuelto y permisos de ejecucion"
+git status
+git push
+vim Punto_F.sh 
+vim Punto_E.sh
+git status
+git add .
+git commit -m "ADD: Agrego Punto E"
+git push
+git status
+vim Punto_F.sh 
+git status
+git add .
+sudo chmod 755 Punto_F.sh 
+git add .
+git status
+git commit -m "ADD: Agrego Punto F resuelto y con los permisos de ejecucion"
+git push
+cd ..
+ls -l
+vim README.md 
+git status
+git add .
+git commit -m "ADD: Modifico mis datos en el README"
+git push
+history -a
+ls -l
+cd RTA_SCRIPT_Examen_20241005/
+./Punto_A.sh 
+tree
+./Punto_B.sh 
+./Punto_C.sh 
+./Punto_D.sh 
+./Punto_E.sh 
+./Punto_F.sh 
+vim Punto_F.sh 
+ls -l
+git add .
+git commit -m "ADD: Correccion de Punto F y agrego Filtro Avanzado y Filtro Basico"
+./Punto_F.sh 
+cd /repogit/UTNFRA_SO_1P2C_2024_Rodicio/RTA_SCRIPT_Examen_20241005$
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Rodicio/
+cd RTA_SCRIPT_Examen_20241005/
+git status
+git push
+git status
+history
+history -a $HOME/.bash_history
